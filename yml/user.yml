@@ -1,0 +1,58 @@
+---
+swagger: '2.0'
+info:
+  version: 1.0.0
+  title: Knowledge Sharing
+  description: |
+    ttt
+schemes:
+  - http
+host: localhost:10010
+basePath: /api
+paths:
+  /activity:
+    get:
+      responses:
+        200:
+          description: get activity list
+  /activity:
+    post:
+      responses:
+        200:
+          description: create an activity
+      parameters:
+        - name: body
+          in: body
+          description: name          
+          schema:
+            $ref: "#/definitions/Activity"
+  /activity/{activityId}:
+    parameters:
+      - name: id
+        in: path
+        description: ID
+        type: string
+        required: true
+    get:
+      responses:
+        200:
+          description: get activity information
+  /activity/{activityId}:
+    parameters:
+      - name: id
+        in: path
+        description: ID
+        type: string
+        required: true
+    post:
+      responses:
+        200:
+          description: update activity information
+
+definitions:
+  Activity:
+    type: object
+    properties:
+      _id:
+        type: string
+      
