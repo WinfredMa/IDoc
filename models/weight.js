@@ -1,17 +1,16 @@
-/* Food model */
-var mongoose, BaseModel, Schema, ObjectId, FoodSchema;
+/* Pressure model */
+var mongoose, BaseModel, Schema, ObjectId, WeightSchema;
 
 mongoose = require('mongoose');
-BaseModel = require("./base_model");
+BaseModel = require('./base_model');
 Patient = require('./patient');
 Schema = mongoose.Schema;
+
 ObjectId = mongoose.Schema.Types.ObjectId;
 
-FoodSchema = new Schema({
+WeightSchema = new Schema({
     id: {type : ObjectId, index : true},
-    name : {type : String},
     amount: {type : String},
-    type: {type : String},
     patient: {
         id : {type :ObjectId , ref : Patient},
         name:{type : String}
@@ -20,12 +19,12 @@ FoodSchema = new Schema({
     update_at: { type: Date, default: Date.now }
 });
 
-FoodSchema.plugin(BaseModel);
+WeightSchema.plugin(BaseModel);
 
-FoodSchema.pre('save', function (next) {
+WeightSchema.pre('save', function (next) {
     var now = new Date();
     this.update_at = now;
     next();
 });
 
-mongoose.model('Food', FoodSchema);
+mongoose.model('Weight', WeightSchema);

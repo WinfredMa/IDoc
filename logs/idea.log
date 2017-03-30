@@ -3355,3 +3355,652 @@ ReferenceError: data is not defined
 [2017-03-29 19:25:49.624] [INFO] idea - Completed 200 (17ms)
 [2017-03-29 19:25:49.626] [INFO] idea - Started 2017-03-29T11:25:49.626Z POST /api/activity/58db89b380ee5b753cd0ea77 ::ffff:127.0.0.1
 [2017-03-29 19:25:49.635] [INFO] idea - Completed 200 (9ms)
+[2017-03-30 13:49:00.435] [INFO] idea - Share listening on port 3000
+[2017-03-30 13:49:28.868] [INFO] idea - Started 2017-03-30T05:49:28.868Z GET /api/activity/58da2da8ec08932cf16dcbfc ::ffff:127.0.0.1
+[2017-03-30 13:49:28.910] [INFO] idea - Completed 200 (42ms)
+[2017-03-30 13:49:28.930] [INFO] idea - Started 2017-03-30T05:49:28.930Z POST /api/activity/delete/58da2da8ec08932cf16dcbfc ::ffff:127.0.0.1
+[2017-03-30 13:49:28.951] [INFO] idea - Completed 404 (21ms)
+[2017-03-30 13:49:58.814] [INFO] idea - Started 2017-03-30T05:49:58.814Z GET /api/activity/58da2da8ec08932cf16dcbfc ::ffff:127.0.0.1
+[2017-03-30 13:49:58.823] [ERROR] idea - TypeError: Cannot read property 'remove' of null
+    at exports.delete (/Users/wma027/Documents/Projects/IDoc/controller/activity.js:57:17)
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:277:22
+    at param (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:349:14)
+    at paramCallback (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:401:21)
+    at /Users/wma027/Documents/Projects/IDoc/controller/activity.js:41:13
+    at Query.<anonymous> (/Users/wma027/Documents/Projects/IDoc/node_modules/mongoose/lib/model.js:3419:16)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/kareem/index.js:264:21
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/kareem/index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[2017-03-30 13:49:58.832] [INFO] idea - Completed 500 (18ms)
+[2017-03-30 13:49:58.835] [INFO] idea - Started 2017-03-30T05:49:58.835Z POST /api/activity/delete/58da2da8ec08932cf16dcbfc ::ffff:127.0.0.1
+[2017-03-30 13:49:58.840] [INFO] idea - Completed 404 (5ms)
+[2017-03-30 13:51:56.018] [INFO] idea - Started 2017-03-30T05:51:56.018Z GET /api/activity ::ffff:127.0.0.1
+[2017-03-30 13:51:56.044] [INFO] idea - Completed 200 (26ms)
+[2017-03-30 13:51:56.050] [INFO] idea - Started 2017-03-30T05:51:56.050Z GET /api/activity/58da2da8ec08932cf16dcbfc ::ffff:127.0.0.1
+[2017-03-30 13:51:56.056] [ERROR] idea - TypeError: Cannot read property 'remove' of null
+    at exports.delete (/Users/wma027/Documents/Projects/IDoc/controller/activity.js:57:17)
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:277:22
+    at param (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:349:14)
+    at paramCallback (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:401:21)
+    at /Users/wma027/Documents/Projects/IDoc/controller/activity.js:41:13
+    at Query.<anonymous> (/Users/wma027/Documents/Projects/IDoc/node_modules/mongoose/lib/model.js:3419:16)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/kareem/index.js:264:21
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/kareem/index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[2017-03-30 13:51:56.059] [INFO] idea - Completed 500 (9ms)
+[2017-03-30 13:51:56.060] [INFO] idea - Started 2017-03-30T05:51:56.060Z POST /api/activity/delete/58da2da8ec08932cf16dcbfc ::ffff:127.0.0.1
+[2017-03-30 13:51:56.063] [INFO] idea - Completed 404 (3ms)
+[2017-03-30 14:04:07.040] [INFO] idea - Share listening on port 3000
+[2017-03-30 14:04:34.707] [INFO] idea - Started 2017-03-30T06:04:34.706Z GET /api/activity ::ffff:127.0.0.1
+[2017-03-30 14:04:34.732] [INFO] idea - Completed 200 (25ms)
+[2017-03-30 14:04:34.740] [INFO] idea - Started 2017-03-30T06:04:34.740Z GET /api/activity/58da2da8ec08932cf16dcbfc ::ffff:127.0.0.1
+[2017-03-30 14:04:34.751] [INFO] idea - Completed 200 (11ms)
+[2017-03-30 14:04:34.754] [INFO] idea - Started 2017-03-30T06:04:34.754Z POST /api/activity/delete/58da2da8ec08932cf16dcbfc ::ffff:127.0.0.1
+[2017-03-30 14:04:34.771] [INFO] idea - Completed 404 (17ms)
+[2017-03-30 14:05:00.913] [INFO] idea - Started 2017-03-30T06:05:00.913Z GET /api/activity ::ffff:127.0.0.1
+[2017-03-30 14:05:00.930] [INFO] idea - Completed 200 (17ms)
+[2017-03-30 14:05:00.942] [INFO] idea - Started 2017-03-30T06:05:00.942Z GET /api/activity/58da2da8ec08932cf16dcbfc ::ffff:127.0.0.1
+[2017-03-30 14:05:00.948] [INFO] idea - Completed 200 (6ms)
+[2017-03-30 14:05:00.951] [INFO] idea - Started 2017-03-30T06:05:00.951Z POST /api/activity/delete/58db89b380ee5b753cd0ea77 ::ffff:127.0.0.1
+[2017-03-30 14:05:00.955] [INFO] idea - Completed 404 (3ms)
+[2017-03-30 14:06:54.733] [INFO] idea - Started 2017-03-30T06:06:54.733Z GET /api/activity ::ffff:127.0.0.1
+[2017-03-30 14:06:54.740] [INFO] idea - Completed 200 (7ms)
+[2017-03-30 14:06:54.773] [INFO] idea - Started 2017-03-30T06:06:54.773Z GET /api/activity/58da2da8ec08932cf16dcbfc ::ffff:127.0.0.1
+[2017-03-30 14:06:54.779] [INFO] idea - Completed 200 (6ms)
+[2017-03-30 14:06:54.780] [INFO] idea - Started 2017-03-30T06:06:54.780Z POST /api/activity/delete/58db89b380ee5b753cd0ea77 ::ffff:127.0.0.1
+[2017-03-30 14:06:54.783] [INFO] idea - Completed 404 (3ms)
+[2017-03-30 14:06:54.787] [INFO] idea - Started 2017-03-30T06:06:54.787Z DELETE /api/activity/58db89b380ee5b753cd0ea77 ::ffff:127.0.0.1
+[2017-03-30 14:06:54.797] [INFO] idea - Completed 200 (10ms)
+[2017-03-30 14:07:21.402] [INFO] idea - Started 2017-03-30T06:07:21.402Z GET /api/activity ::ffff:127.0.0.1
+[2017-03-30 14:07:21.408] [INFO] idea - Completed 200 (6ms)
+[2017-03-30 14:07:21.419] [INFO] idea - Started 2017-03-30T06:07:21.419Z GET /api/activity/58da2da8ec08932cf16dcbfc ::ffff:127.0.0.1
+[2017-03-30 14:07:21.421] [INFO] idea - Completed 200 (2ms)
+[2017-03-30 14:07:21.426] [INFO] idea - Started 2017-03-30T06:07:21.426Z POST /api/activity/delete/58db89b380ee5b753cd0ea77 ::ffff:127.0.0.1
+[2017-03-30 14:07:21.435] [INFO] idea - Completed 404 (8ms)
+[2017-03-30 14:07:21.439] [INFO] idea - Started 2017-03-30T06:07:21.439Z DELETE /api/activity/58db89b380ee5b753cd0ea77 ::ffff:127.0.0.1
+[2017-03-30 14:07:21.443] [ERROR] idea - TypeError: Cannot read property 'remove' of null
+    at exports.delete (/Users/wma027/Documents/Projects/IDoc/controller/activity.js:57:17)
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:277:22
+    at param (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:349:14)
+    at paramCallback (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:401:21)
+    at /Users/wma027/Documents/Projects/IDoc/controller/activity.js:41:13
+    at Query.<anonymous> (/Users/wma027/Documents/Projects/IDoc/node_modules/mongoose/lib/model.js:3419:16)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/kareem/index.js:264:21
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/kareem/index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[2017-03-30 14:07:21.451] [INFO] idea - Completed 500 (12ms)
+[2017-03-30 14:09:35.673] [INFO] idea - Started 2017-03-30T06:09:35.673Z GET /api/activity ::ffff:127.0.0.1
+[2017-03-30 14:09:35.681] [INFO] idea - Completed 200 (8ms)
+[2017-03-30 14:09:35.686] [INFO] idea - Started 2017-03-30T06:09:35.686Z GET /api/activity/58dc78edfe72aa308670d86c ::ffff:127.0.0.1
+[2017-03-30 14:09:35.693] [INFO] idea - Completed 200 (6ms)
+[2017-03-30 14:10:20.031] [INFO] idea - Started 2017-03-30T06:10:20.031Z GET /api/activity/58dc78edfe72aa308670d86c ::ffff:127.0.0.1
+[2017-03-30 14:10:20.038] [INFO] idea - Completed 200 (7ms)
+[2017-03-30 14:10:20.058] [INFO] idea - Started 2017-03-30T06:10:20.058Z PUT /api/activity/58dc78edfe72aa308670d86c ::ffff:127.0.0.1
+[2017-03-30 14:10:20.067] [INFO] idea - Completed 404 (9ms)
+[2017-03-30 14:11:16.603] [INFO] idea - Share listening on port 3000
+[2017-03-30 14:11:45.750] [INFO] idea - Started 2017-03-30T06:11:45.749Z GET /api/activity/58dc78edfe72aa308670d86c ::ffff:127.0.0.1
+[2017-03-30 14:11:45.775] [INFO] idea - Completed 200 (26ms)
+[2017-03-30 14:11:45.783] [INFO] idea - Started 2017-03-30T06:11:45.783Z PUT /api/activity/58dc78edfe72aa308670d86c ::ffff:127.0.0.1
+[2017-03-30 14:11:45.793] [INFO] idea - Completed 200 (10ms)
+[2017-03-30 14:12:37.786] [INFO] idea - Started 2017-03-30T06:12:37.786Z GET /api/activity/58dc78edfe72aa308670d86c ::ffff:127.0.0.1
+[2017-03-30 14:12:37.794] [INFO] idea - Completed 200 (8ms)
+[2017-03-30 14:12:37.828] [INFO] idea - Started 2017-03-30T06:12:37.828Z PUT /api/activity/58dc78edfe72aa308670d86c ::ffff:127.0.0.1
+[2017-03-30 14:12:37.844] [INFO] idea - Completed 200 (16ms)
+[2017-03-30 14:13:27.841] [INFO] idea - Started 2017-03-30T06:13:27.841Z PUT /api/activity/58dc78edfe72aa308670d86c ::ffff:127.0.0.1
+[2017-03-30 14:13:27.855] [INFO] idea - Completed 200 (14ms)
+[2017-03-30 14:13:27.861] [INFO] idea - Started 2017-03-30T06:13:27.861Z GET /api/activity/58dc78edfe72aa308670d86c ::ffff:127.0.0.1
+[2017-03-30 14:13:27.867] [INFO] idea - Completed 200 (6ms)
+[2017-03-30 14:15:46.257] [INFO] idea - Started 2017-03-30T06:15:46.257Z GET /api/activity ::ffff:127.0.0.1
+[2017-03-30 14:15:46.267] [INFO] idea - Completed 200 (10ms)
+[2017-03-30 14:15:46.288] [INFO] idea - Started 2017-03-30T06:15:46.287Z PUT /api/activity/58dc78edfe72aa308670d86c ::ffff:127.0.0.1
+[2017-03-30 14:15:46.299] [INFO] idea - Completed 200 (12ms)
+[2017-03-30 14:18:32.843] [INFO] idea - Started 2017-03-30T06:18:32.842Z GET /api/activity ::ffff:127.0.0.1
+[2017-03-30 14:18:32.851] [INFO] idea - Completed 200 (9ms)
+[2017-03-30 14:18:32.859] [INFO] idea - Started 2017-03-30T06:18:32.858Z PUT /api/activity/58dc78edfe72aa308670d86c ::ffff:127.0.0.1
+[2017-03-30 14:18:32.870] [INFO] idea - Completed 200 (12ms)
+[2017-03-30 14:18:48.974] [INFO] idea - Started 2017-03-30T06:18:48.973Z GET /api/activity ::ffff:127.0.0.1
+[2017-03-30 14:18:48.985] [INFO] idea - Completed 200 (12ms)
+[2017-03-30 14:18:49.024] [INFO] idea - Started 2017-03-30T06:18:49.024Z POST /api/activity ::ffff:127.0.0.1
+[2017-03-30 14:18:49.058] [INFO] idea - Completed 200 (34ms)
+[2017-03-30 14:18:49.059] [INFO] idea - Started 2017-03-30T06:18:49.059Z PUT /api/activity/58dc78edfe72aa308670d86c ::ffff:127.0.0.1
+[2017-03-30 14:18:49.062] [INFO] idea - Completed 200 (3ms)
+[2017-03-30 14:19:03.352] [INFO] idea - Started 2017-03-30T06:19:03.352Z GET /api/activity ::ffff:127.0.0.1
+[2017-03-30 14:19:03.361] [INFO] idea - Completed 200 (9ms)
+[2017-03-30 14:19:03.384] [INFO] idea - Started 2017-03-30T06:19:03.384Z PUT /api/activity/58dc78edfe72aa308670d86c ::ffff:127.0.0.1
+[2017-03-30 14:19:03.396] [INFO] idea - Completed 200 (12ms)
+[2017-03-30 14:38:21.964] [INFO] idea - Share listening on port 3000
+[2017-03-30 14:39:09.720] [INFO] idea - Started 2017-03-30T06:39:09.720Z GET /api/activity ::ffff:127.0.0.1
+[2017-03-30 14:39:09.755] [INFO] idea - Completed 200 (35ms)
+[2017-03-30 14:39:09.769] [INFO] idea - Started 2017-03-30T06:39:09.769Z PUT /api/activity/58dc78edfe72aa308670d86c ::ffff:127.0.0.1
+[2017-03-30 14:39:09.785] [INFO] idea - Completed 200 (16ms)
+[2017-03-30 14:40:59.653] [INFO] idea - Share listening on port 3000
+[2017-03-30 14:41:06.792] [INFO] idea - Started 2017-03-30T06:41:06.792Z GET /api/activity ::ffff:127.0.0.1
+[2017-03-30 14:41:06.851] [INFO] idea - Completed 200 (59ms)
+[2017-03-30 14:41:06.862] [INFO] idea - Started 2017-03-30T06:41:06.862Z POST /api/activity/58dc78edfe72aa308670d86c ::ffff:127.0.0.1
+[2017-03-30 14:41:06.894] [INFO] idea - Completed 200 (32ms)
+[2017-03-30 14:42:08.341] [INFO] idea - Started 2017-03-30T06:42:08.341Z POST /api/activity/58dc78edfe72aa308670d86c ::ffff:127.0.0.1
+[2017-03-30 14:42:08.358] [INFO] idea - Completed 200 (16ms)
+[2017-03-30 14:42:39.375] [INFO] idea - Started 2017-03-30T06:42:39.374Z GET /api/activity ::ffff:127.0.0.1
+[2017-03-30 14:42:39.388] [INFO] idea - Completed 200 (14ms)
+[2017-03-30 14:43:05.273] [INFO] idea - Started 2017-03-30T06:43:05.273Z GET /api/activity ::ffff:127.0.0.1
+[2017-03-30 14:43:05.292] [INFO] idea - Completed 200 (19ms)
+[2017-03-30 14:43:05.311] [INFO] idea - Started 2017-03-30T06:43:05.311Z POST /api/activity/58dc78edfe72aa308670d86c ::ffff:127.0.0.1
+[2017-03-30 14:43:05.334] [INFO] idea - Completed 200 (23ms)
+[2017-03-30 14:43:33.644] [INFO] idea - Started 2017-03-30T06:43:33.644Z GET /api/activity ::ffff:127.0.0.1
+[2017-03-30 14:43:33.657] [INFO] idea - Completed 200 (12ms)
+[2017-03-30 14:43:33.667] [INFO] idea - Started 2017-03-30T06:43:33.667Z POST /api/activity/58dc78edfe72aa308670d86c ::ffff:127.0.0.1
+[2017-03-30 14:43:33.675] [INFO] idea - Completed 200 (7ms)
+[2017-03-30 14:44:04.185] [INFO] idea - Share listening on port 3000
+[2017-03-30 14:44:20.253] [INFO] idea - Started 2017-03-30T06:44:20.252Z POST /api/activity/58dc78edfe72aa308670d86c ::ffff:127.0.0.1
+[2017-03-30 14:44:20.300] [INFO] idea - Completed 404 (48ms)
+[2017-03-30 14:44:29.640] [INFO] idea - Started 2017-03-30T06:44:29.640Z PUT /api/activity/58dc78edfe72aa308670d86c ::ffff:127.0.0.1
+[2017-03-30 14:44:29.687] [INFO] idea - Completed 200 (47ms)
+[2017-03-30 14:44:42.164] [INFO] idea - Started 2017-03-30T06:44:42.164Z PUT /api/activity/58dc78edfe72aa308670d86c ::ffff:127.0.0.1
+[2017-03-30 14:44:42.183] [INFO] idea - Completed 200 (19ms)
+[2017-03-30 14:44:49.565] [INFO] idea - Started 2017-03-30T06:44:49.564Z PUT /api/activity/58dc78edfe72aa308670d86c ::ffff:127.0.0.1
+[2017-03-30 14:44:49.592] [INFO] idea - Completed 200 (28ms)
+[2017-03-30 14:45:47.822] [INFO] idea - Started 2017-03-30T06:45:47.822Z PUT /api/activity/58dc78edfe72aa308670d86c ::ffff:127.0.0.1
+[2017-03-30 14:45:47.834] [INFO] idea - Completed 200 (12ms)
+[2017-03-30 14:45:58.185] [INFO] idea - Started 2017-03-30T06:45:58.185Z PUT /api/activity/58dc78edfe72aa308670d86c ::ffff:127.0.0.1
+[2017-03-30 14:45:58.202] [INFO] idea - Completed 200 (17ms)
+[2017-03-30 14:48:03.384] [INFO] idea - Started 2017-03-30T06:48:03.384Z GET /api/activity ::ffff:127.0.0.1
+[2017-03-30 14:48:03.395] [INFO] idea - Completed 200 (10ms)
+[2017-03-30 14:52:39.368] [INFO] idea - Started 2017-03-30T06:52:39.368Z PUT /api/activity/58dc78edfe72aa308670d86c ::1
+[2017-03-30 14:52:39.377] [INFO] idea - Completed 200 (9ms)
+[2017-03-30 15:15:45.610] [INFO] idea - Share listening on port 3000
+[2017-03-30 15:15:57.509] [INFO] idea - Started 2017-03-30T07:15:57.508Z POST /api/food ::ffff:127.0.0.1
+[2017-03-30 15:15:57.567] [INFO] idea - Completed 200 (59ms)
+[2017-03-30 15:18:46.347] [INFO] idea - Started 2017-03-30T07:18:46.345Z GET /api/food ::ffff:127.0.0.1
+[2017-03-30 15:18:46.378] [INFO] idea - Completed 200 (33ms)
+[2017-03-30 15:19:47.960] [INFO] idea - Started 2017-03-30T07:19:47.959Z PUT /api/food/58dcb0ad28aa4918686c800f ::ffff:127.0.0.1
+[2017-03-30 15:19:47.975] [INFO] idea - Completed 404 (16ms)
+[2017-03-30 15:20:01.225] [INFO] idea - Started 2017-03-30T07:20:01.225Z POST /api/food/58dcb0ad28aa4918686c800f ::ffff:127.0.0.1
+[2017-03-30 15:20:01.234] [ERROR] idea - TypeError: Cannot read property '_id' of undefined
+    at exports.update (/Users/wma027/Documents/Projects/IDoc/controller/food.js:47:41)
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:277:22
+    at param (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:349:14)
+    at param (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:271:10)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/route.js:121:14)
+    at /Users/wma027/Documents/Projects/IDoc/router/index.js:31:16
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:277:22
+    at param (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:349:14)
+    at param (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:271:10)
+    at Function.handle (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:176:3)
+    at router (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:46:12)
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:312:13)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:271:10)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/swagger-express/lib/swagger-express/index.js:320:12
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:312:13)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:271:10)
+    at session (/Users/wma027/Documents/Projects/IDoc/node_modules/express-session/index.js:438:7)
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:312:13)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:271:10)
+    at compression (/Users/wma027/Documents/Projects/IDoc/node_modules/compression/index.js:219:5)
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:312:13)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:271:10)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/body-parser/lib/read.js:129:5
+    at invokeCallback (/Users/wma027/Documents/Projects/IDoc/node_modules/raw-body/index.js:262:16)
+    at done (/Users/wma027/Documents/Projects/IDoc/node_modules/raw-body/index.js:251:7)
+    at IncomingMessage.onEnd (/Users/wma027/Documents/Projects/IDoc/node_modules/raw-body/index.js:307:7)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:926:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[2017-03-30 15:20:01.264] [INFO] idea - Completed 500 (39ms)
+[2017-03-30 15:25:13.030] [INFO] idea - Started 2017-03-30T07:25:13.030Z POST /api/food/58dcb0ad28aa4918686c800f ::ffff:127.0.0.1
+[2017-03-30 15:25:13.035] [ERROR] idea - TypeError: Cannot read property '_id' of undefined
+    at exports.update (/Users/wma027/Documents/Projects/IDoc/controller/food.js:47:41)
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:277:22
+    at param (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:349:14)
+    at param (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:271:10)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/route.js:121:14)
+    at /Users/wma027/Documents/Projects/IDoc/router/index.js:31:16
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:277:22
+    at param (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:349:14)
+    at param (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:271:10)
+    at Function.handle (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:176:3)
+    at router (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:46:12)
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:312:13)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:271:10)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/swagger-express/lib/swagger-express/index.js:320:12
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:312:13)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:271:10)
+    at session (/Users/wma027/Documents/Projects/IDoc/node_modules/express-session/index.js:438:7)
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:312:13)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:271:10)
+    at compression (/Users/wma027/Documents/Projects/IDoc/node_modules/compression/index.js:219:5)
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:312:13)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:271:10)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/body-parser/lib/read.js:129:5
+    at invokeCallback (/Users/wma027/Documents/Projects/IDoc/node_modules/raw-body/index.js:262:16)
+    at done (/Users/wma027/Documents/Projects/IDoc/node_modules/raw-body/index.js:251:7)
+    at IncomingMessage.onEnd (/Users/wma027/Documents/Projects/IDoc/node_modules/raw-body/index.js:307:7)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:926:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[2017-03-30 15:25:13.044] [INFO] idea - Completed 500 (14ms)
+[2017-03-30 15:25:13.073] [INFO] idea - Started 2017-03-30T07:25:13.073Z GET /api/food/58dcb0ad28aa4918686c800f ::ffff:127.0.0.1
+[2017-03-30 15:25:13.084] [INFO] idea - Completed 200 (11ms)
+[2017-03-30 15:27:08.844] [INFO] idea - Share listening on port 3000
+[2017-03-30 15:27:13.233] [INFO] idea - Started 2017-03-30T07:27:13.233Z POST /api/food/58dcb0ad28aa4918686c800f ::ffff:127.0.0.1
+[2017-03-30 15:27:13.309] [INFO] idea - Completed 200 (76ms)
+[2017-03-30 15:27:13.312] [INFO] idea - Started 2017-03-30T07:27:13.312Z GET /api/food/58dcb0ad28aa4918686c800f ::ffff:127.0.0.1
+[2017-03-30 15:27:13.325] [INFO] idea - Completed 200 (13ms)
+[2017-03-30 15:39:17.706] [INFO] idea - Share listening on port 3000
+[2017-03-30 15:39:21.150] [INFO] idea - Started 2017-03-30T07:39:21.149Z POST /api/treatment ::ffff:127.0.0.1
+[2017-03-30 15:39:21.307] [INFO] idea - Completed 200 (158ms)
+[2017-03-30 15:39:21.310] [INFO] idea - Started 2017-03-30T07:39:21.310Z GET /api/treatment ::ffff:127.0.0.1
+[2017-03-30 15:41:02.023] [INFO] idea - Share listening on port 3000
+[2017-03-30 15:41:06.423] [INFO] idea - Started 2017-03-30T07:41:06.422Z GET /api/treatment ::ffff:127.0.0.1
+[2017-03-30 15:41:06.471] [INFO] idea - Completed 200 (49ms)
+[2017-03-30 15:41:26.687] [INFO] idea - Started 2017-03-30T07:41:26.686Z POST /api/treatment/58dcb62973e472240b230d2f ::ffff:127.0.0.1
+[2017-03-30 15:41:50.503] [INFO] idea - Share listening on port 3000
+[2017-03-30 15:41:55.726] [INFO] idea - Started 2017-03-30T07:41:55.725Z POST /api/treatment/58dcb62973e472240b230d2f ::ffff:127.0.0.1
+[2017-03-30 15:44:43.745] [INFO] idea - Share listening on port 3000
+[2017-03-30 15:44:46.943] [INFO] idea - Started 2017-03-30T07:44:46.941Z GET /api/treatment/58dcb62973e472240b230d2f ::ffff:127.0.0.1
+[2017-03-30 15:44:46.985] [INFO] idea - Completed 200 (44ms)
+[2017-03-30 15:44:54.590] [INFO] idea - Started 2017-03-30T07:44:54.590Z POST /api/treatment/58dcb62973e472240b230d2f ::ffff:127.0.0.1
+[2017-03-30 15:44:54.648] [INFO] idea - Completed 200 (58ms)
+[2017-03-30 15:44:54.651] [INFO] idea - Started 2017-03-30T07:44:54.651Z GET /api/treatment/58dcb62973e472240b230d2f ::ffff:127.0.0.1
+[2017-03-30 15:44:54.659] [INFO] idea - Completed 200 (8ms)
+[2017-03-30 15:45:09.829] [INFO] idea - Started 2017-03-30T07:45:09.829Z POST /api/treatment/58dcb62973e472240b230d2f ::ffff:127.0.0.1
+[2017-03-30 15:45:09.886] [INFO] idea - Completed 200 (57ms)
+[2017-03-30 15:45:09.906] [INFO] idea - Started 2017-03-30T07:45:09.906Z GET /api/treatment/58dcb62973e472240b230d2f ::ffff:127.0.0.1
+[2017-03-30 15:45:09.915] [INFO] idea - Completed 200 (9ms)
+[2017-03-30 15:54:45.479] [INFO] idea - Share listening on port 3000
+[2017-03-30 15:56:40.820] [INFO] idea - Share listening on port 3000
+[2017-03-30 15:56:47.506] [INFO] idea - Started 2017-03-30T07:56:47.505Z POST /api/glucose ::ffff:127.0.0.1
+[2017-03-30 15:56:47.572] [ERROR] idea - TypeError: GlucoseModel is not a constructor
+    at exports.create (/Users/wma027/Documents/Projects/IDoc/controller/glucose.js:9:19)
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:271:10)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/route.js:121:14)
+    at /Users/wma027/Documents/Projects/IDoc/router/index.js:31:16
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:277:22
+    at param (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:349:14)
+    at param (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:271:10)
+    at Function.handle (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:176:3)
+    at router (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:46:12)
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:312:13)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:271:10)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/swagger-express/lib/swagger-express/index.js:320:12
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:312:13)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:271:10)
+    at session (/Users/wma027/Documents/Projects/IDoc/node_modules/express-session/index.js:438:7)
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:312:13)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:271:10)
+    at compression (/Users/wma027/Documents/Projects/IDoc/node_modules/compression/index.js:219:5)
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:312:13)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:271:10)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/body-parser/lib/read.js:129:5
+    at invokeCallback (/Users/wma027/Documents/Projects/IDoc/node_modules/raw-body/index.js:262:16)
+    at done (/Users/wma027/Documents/Projects/IDoc/node_modules/raw-body/index.js:251:7)
+    at IncomingMessage.onEnd (/Users/wma027/Documents/Projects/IDoc/node_modules/raw-body/index.js:307:7)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:926:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[2017-03-30 15:56:47.583] [INFO] idea - Completed 500 (78ms)
+[2017-03-30 16:00:18.334] [INFO] idea - Share listening on port 3000
+[2017-03-30 16:00:22.180] [INFO] idea - Started 2017-03-30T08:00:22.179Z POST /api/glucose ::ffff:127.0.0.1
+[2017-03-30 16:00:22.263] [INFO] idea - Completed 200 (84ms)
+[2017-03-30 16:00:34.278] [INFO] idea - Started 2017-03-30T08:00:34.278Z GET /api/glucose ::ffff:127.0.0.1
+[2017-03-30 16:00:34.303] [INFO] idea - Completed 200 (25ms)
+[2017-03-30 16:01:08.720] [INFO] idea - Started 2017-03-30T08:01:08.720Z POST /api/glucose/58dcb0ad28aa4918686c800f ::ffff:127.0.0.1
+[2017-03-30 16:01:08.734] [ERROR] idea - TypeError: Cannot read property '_id' of null
+    at exports.update (/Users/wma027/Documents/Projects/IDoc/controller/glucose.js:47:47)
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:277:22
+    at param (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:349:14)
+    at paramCallback (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:401:21)
+    at /Users/wma027/Documents/Projects/IDoc/controller/glucose.js:41:13
+    at Query.<anonymous> (/Users/wma027/Documents/Projects/IDoc/node_modules/mongoose/lib/model.js:3419:16)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/kareem/index.js:264:21
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/kareem/index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[2017-03-30 16:01:08.747] [INFO] idea - Completed 500 (27ms)
+[2017-03-30 16:01:08.792] [INFO] idea - Started 2017-03-30T08:01:08.792Z GET /api/glucose/58dcb0ad28aa4918686c800f ::ffff:127.0.0.1
+[2017-03-30 16:01:08.804] [INFO] idea - Completed 200 (12ms)
+[2017-03-30 16:02:26.237] [INFO] idea - Started 2017-03-30T08:02:26.237Z POST /api/glucose/58dcb0ad28aa4918686c800f ::ffff:127.0.0.1
+[2017-03-30 16:02:26.243] [ERROR] idea - TypeError: Cannot read property '_id' of null
+    at exports.update (/Users/wma027/Documents/Projects/IDoc/controller/glucose.js:47:47)
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:277:22
+    at param (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:349:14)
+    at paramCallback (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:401:21)
+    at /Users/wma027/Documents/Projects/IDoc/controller/glucose.js:41:13
+    at Query.<anonymous> (/Users/wma027/Documents/Projects/IDoc/node_modules/mongoose/lib/model.js:3419:16)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/kareem/index.js:264:21
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/kareem/index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[2017-03-30 16:02:26.251] [INFO] idea - Completed 500 (14ms)
+[2017-03-30 16:02:26.262] [INFO] idea - Started 2017-03-30T08:02:26.261Z GET /api/glucose/58dcb0ad28aa4918686c800f ::ffff:127.0.0.1
+[2017-03-30 16:02:26.267] [INFO] idea - Completed 200 (6ms)
+[2017-03-30 16:03:03.661] [INFO] idea - Started 2017-03-30T08:03:03.661Z GET /api/glucose/58dcbb1683e973307ffe7c5e ::ffff:127.0.0.1
+[2017-03-30 16:03:03.673] [INFO] idea - Completed 200 (12ms)
+[2017-03-30 16:03:18.217] [INFO] idea - Started 2017-03-30T08:03:18.217Z POST /api/glucose/58dcbb1683e973307ffe7c5e ::ffff:127.0.0.1
+[2017-03-30 16:03:18.246] [INFO] idea - Completed 200 (29ms)
+[2017-03-30 16:03:18.363] [INFO] idea - Started 2017-03-30T08:03:18.363Z GET /api/glucose/58dcbb1683e973307ffe7c5e ::ffff:127.0.0.1
+[2017-03-30 16:03:18.375] [INFO] idea - Completed 200 (12ms)
+[2017-03-30 16:13:24.200] [INFO] idea - Share listening on port 3000
+[2017-03-30 16:13:31.834] [INFO] idea - Started 2017-03-30T08:13:31.831Z POST /api/pressure ::ffff:127.0.0.1
+[2017-03-30 16:13:31.919] [INFO] idea - Completed 200 (88ms)
+[2017-03-30 16:13:43.310] [INFO] idea - Started 2017-03-30T08:13:43.310Z GET /api/pressure ::ffff:127.0.0.1
+[2017-03-30 16:13:43.344] [INFO] idea - Completed 200 (34ms)
+[2017-03-30 16:14:50.942] [INFO] idea - Started 2017-03-30T08:14:50.941Z POST /api/pressure/58dcbe2b1bc35f35587520b6 ::ffff:127.0.0.1
+[2017-03-30 16:14:50.973] [INFO] idea - Completed 200 (32ms)
+[2017-03-30 16:15:20.538] [INFO] idea - Started 2017-03-30T08:15:20.538Z GET /api/pressure/58dcbe2b1bc35f35587520b6 ::ffff:127.0.0.1
+[2017-03-30 16:15:20.548] [INFO] idea - Completed 200 (10ms)
+[2017-03-30 16:22:07.613] [INFO] idea - Share listening on port 3000
+[2017-03-30 16:23:44.284] [INFO] idea - Started 2017-03-30T08:23:44.284Z POST /api/heartRate ::ffff:127.0.0.1
+[2017-03-30 16:23:44.353] [INFO] idea - Completed 200 (69ms)
+[2017-03-30 16:23:57.559] [INFO] idea - Started 2017-03-30T08:23:57.559Z GET /api/heartRate ::ffff:127.0.0.1
+[2017-03-30 16:23:57.592] [INFO] idea - Completed 200 (33ms)
+[2017-03-30 16:24:06.068] [INFO] idea - Started 2017-03-30T08:24:06.068Z POST /api/heartRate/58dcbb1683e973307ffe7c5e ::ffff:127.0.0.1
+[2017-03-30 16:24:06.086] [ERROR] idea - TypeError: Cannot read property '_id' of null
+    at exports.update (/Users/wma027/Documents/Projects/IDoc/controller/heart_rate.js:47:51)
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:277:22
+    at param (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:349:14)
+    at paramCallback (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:401:21)
+    at /Users/wma027/Documents/Projects/IDoc/controller/heart_rate.js:41:13
+    at Query.<anonymous> (/Users/wma027/Documents/Projects/IDoc/node_modules/mongoose/lib/model.js:3419:16)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/kareem/index.js:264:21
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/kareem/index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[2017-03-30 16:24:06.101] [INFO] idea - Completed 500 (33ms)
+[2017-03-30 16:24:20.050] [INFO] idea - Started 2017-03-30T08:24:20.050Z POST /api/heartRate/58dcc09074ddf43a23ef669e ::ffff:127.0.0.1
+[2017-03-30 16:24:20.076] [INFO] idea - Completed 200 (26ms)
+[2017-03-30 16:24:30.320] [INFO] idea - Started 2017-03-30T08:24:30.320Z GET /api/heartRate/58dcc09074ddf43a23ef669e ::ffff:127.0.0.1
+[2017-03-30 16:24:30.329] [INFO] idea - Completed 200 (8ms)
+[2017-03-30 16:24:51.740] [INFO] idea - Started 2017-03-30T08:24:51.740Z POST /api/heartRate/58dcc09074ddf43a23ef669e ::ffff:127.0.0.1
+[2017-03-30 16:24:51.753] [INFO] idea - Completed 200 (13ms)
+[2017-03-30 16:24:51.930] [INFO] idea - Started 2017-03-30T08:24:51.930Z GET /api/heartRate/58dcc09074ddf43a23ef669e ::ffff:127.0.0.1
+[2017-03-30 16:24:51.947] [INFO] idea - Completed 200 (17ms)
+[2017-03-30 16:32:27.308] [INFO] idea - Share listening on port 3000
+[2017-03-30 16:32:31.310] [INFO] idea - Started 2017-03-30T08:32:31.308Z POST /api/heartRate ::ffff:127.0.0.1
+[2017-03-30 16:32:31.437] [INFO] idea - Completed 200 (129ms)
+[2017-03-30 16:32:43.291] [INFO] idea - Started 2017-03-30T08:32:43.290Z GET /api/heartRate ::ffff:127.0.0.1
+[2017-03-30 16:32:43.320] [INFO] idea - Completed 200 (30ms)
+[2017-03-30 16:35:18.967] [INFO] idea - Started 2017-03-30T08:35:18.967Z POST /api/weight ::ffff:127.0.0.1
+[2017-03-30 16:35:18.983] [INFO] idea - Completed 200 (16ms)
+[2017-03-30 16:35:19.192] [INFO] idea - Started 2017-03-30T08:35:19.192Z GET /api/weight ::ffff:127.0.0.1
+[2017-03-30 16:35:19.210] [INFO] idea - Completed 200 (18ms)
+[2017-03-30 16:35:53.811] [INFO] idea - Started 2017-03-30T08:35:53.811Z POST /api/weight/58dcc3465a126e3cc8211e4c ::ffff:127.0.0.1
+[2017-03-30 16:35:53.838] [INFO] idea - Completed 200 (27ms)
+[2017-03-30 16:36:25.845] [INFO] idea - Started 2017-03-30T08:36:25.845Z GET /api/weight/58dcc3465a126e3cc8211e4c ::ffff:127.0.0.1
+[2017-03-30 16:36:25.853] [INFO] idea - Completed 200 (8ms)
+[2017-03-30 16:56:06.765] [INFO] idea - Share listening on port 3000
+[2017-03-30 16:56:14.584] [INFO] idea - Started 2017-03-30T08:56:14.582Z POST /api/patient ::ffff:127.0.0.1
+[2017-03-30 16:56:14.646] [ERROR] idea - TypeError: PatientModel is not a constructor
+    at exports.create (/Users/wma027/Documents/Projects/IDoc/controller/patient.js:6:19)
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:271:10)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/route.js:121:14)
+    at /Users/wma027/Documents/Projects/IDoc/router/index.js:31:16
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:277:22
+    at param (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:349:14)
+    at param (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:271:10)
+    at Function.handle (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:176:3)
+    at router (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:46:12)
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:312:13)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:271:10)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/swagger-express/lib/swagger-express/index.js:320:12
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:312:13)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:271:10)
+    at session (/Users/wma027/Documents/Projects/IDoc/node_modules/express-session/index.js:438:7)
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:312:13)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:271:10)
+    at compression (/Users/wma027/Documents/Projects/IDoc/node_modules/compression/index.js:219:5)
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:312:13)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:271:10)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/body-parser/lib/read.js:129:5
+    at invokeCallback (/Users/wma027/Documents/Projects/IDoc/node_modules/raw-body/index.js:262:16)
+    at done (/Users/wma027/Documents/Projects/IDoc/node_modules/raw-body/index.js:251:7)
+    at IncomingMessage.onEnd (/Users/wma027/Documents/Projects/IDoc/node_modules/raw-body/index.js:307:7)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:926:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[2017-03-30 16:56:14.705] [INFO] idea - Completed 500 (122ms)
+[2017-03-30 17:00:25.882] [INFO] idea - Share listening on port 3000
+[2017-03-30 17:00:30.202] [INFO] idea - Started 2017-03-30T09:00:30.201Z POST /api/patient ::ffff:127.0.0.1
+[2017-03-30 17:00:30.267] [INFO] idea - Completed 200 (66ms)
+[2017-03-30 17:00:51.711] [INFO] idea - Started 2017-03-30T09:00:51.711Z GET /api/patient ::ffff:127.0.0.1
+[2017-03-30 17:00:51.742] [INFO] idea - Completed 200 (31ms)
+[2017-03-30 17:01:52.571] [INFO] idea - Started 2017-03-30T09:01:52.570Z POST /api/patient/58dcc92e66a83c48b5f31545 ::ffff:127.0.0.1
+[2017-03-30 17:01:52.577] [ERROR] idea - TypeError: Cannot read property '_id' of undefined
+    at exports.update (/Users/wma027/Documents/Projects/IDoc/controller/patient.js:44:47)
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:277:22
+    at param (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:349:14)
+    at param (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:271:10)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/route.js:121:14)
+    at /Users/wma027/Documents/Projects/IDoc/router/index.js:31:16
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:277:22
+    at param (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:349:14)
+    at param (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:271:10)
+    at Function.handle (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:176:3)
+    at router (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:46:12)
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:312:13)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:271:10)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/swagger-express/lib/swagger-express/index.js:320:12
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:312:13)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:271:10)
+    at session (/Users/wma027/Documents/Projects/IDoc/node_modules/express-session/index.js:438:7)
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:312:13)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:271:10)
+    at compression (/Users/wma027/Documents/Projects/IDoc/node_modules/compression/index.js:219:5)
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:312:13)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:271:10)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/body-parser/lib/read.js:129:5
+    at invokeCallback (/Users/wma027/Documents/Projects/IDoc/node_modules/raw-body/index.js:262:16)
+    at done (/Users/wma027/Documents/Projects/IDoc/node_modules/raw-body/index.js:251:7)
+    at IncomingMessage.onEnd (/Users/wma027/Documents/Projects/IDoc/node_modules/raw-body/index.js:307:7)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:926:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[2017-03-30 17:01:52.599] [INFO] idea - Completed 500 (29ms)
+[2017-03-30 17:02:16.287] [INFO] idea - Started 2017-03-30T09:02:16.287Z GET /api/patient/58dcc92e66a83c48b5f31545 ::ffff:127.0.0.1
+[2017-03-30 17:02:16.301] [INFO] idea - Completed 404 (14ms)
+[2017-03-30 17:02:48.861] [INFO] idea - Share listening on port 3000
+[2017-03-30 17:02:56.555] [INFO] idea - Started 2017-03-30T09:02:56.554Z GET /api/patient/58dcc92e66a83c48b5f31545 ::ffff:127.0.0.1
+[2017-03-30 17:02:56.590] [INFO] idea - Completed 404 (36ms)
+[2017-03-30 17:03:21.007] [INFO] idea - Started 2017-03-30T09:03:21.007Z GET /api/patient/58dcc92e66a83c48b5f31545 ::ffff:127.0.0.1
+[2017-03-30 17:03:21.020] [INFO] idea - Completed 404 (13ms)
+[2017-03-30 17:04:56.877] [INFO] idea - Share listening on port 3000
+[2017-03-30 17:05:01.340] [INFO] idea - Started 2017-03-30T09:05:01.339Z GET /api/patient/58dcc92e66a83c48b5f31545 ::ffff:127.0.0.1
+[2017-03-30 17:05:01.383] [INFO] idea - Completed 200 (44ms)
+[2017-03-30 17:05:11.913] [INFO] idea - Started 2017-03-30T09:05:11.913Z POST /api/patient/58dcc92e66a83c48b5f31545 ::ffff:127.0.0.1
+[2017-03-30 17:05:11.982] [INFO] idea - Completed 200 (69ms)
+[2017-03-30 17:05:21.992] [INFO] idea - Started 2017-03-30T09:05:21.992Z GET /api/patient/58dcc92e66a83c48b5f31545 ::ffff:127.0.0.1
+[2017-03-30 17:05:22.004] [INFO] idea - Completed 200 (12ms)
+[2017-03-30 17:06:53.037] [INFO] idea - Started 2017-03-30T09:06:53.037Z DELETE /api/patient/58dcc92e66a83c48b5f31545 ::ffff:127.0.0.1
+[2017-03-30 17:06:53.061] [INFO] idea - Completed 200 (23ms)
+[2017-03-30 17:07:08.930] [INFO] idea - Started 2017-03-30T09:07:08.930Z POST /api/patient ::ffff:127.0.0.1
+[2017-03-30 17:07:08.973] [INFO] idea - Completed 200 (43ms)
+[2017-03-30 17:07:23.322] [INFO] idea - Started 2017-03-30T09:07:23.322Z POST /api/patient/58dcc92e66a83c48b5f31545 ::ffff:127.0.0.1
+[2017-03-30 17:07:23.330] [ERROR] idea - TypeError: Cannot read property '_id' of null
+    at exports.update (/Users/wma027/Documents/Projects/IDoc/controller/patient.js:44:47)
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:277:22
+    at param (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:349:14)
+    at paramCallback (/Users/wma027/Documents/Projects/IDoc/node_modules/express/lib/router/index.js:401:21)
+    at /Users/wma027/Documents/Projects/IDoc/controller/patient.js:38:13
+    at Query.<anonymous> (/Users/wma027/Documents/Projects/IDoc/node_modules/mongoose/lib/model.js:3419:16)
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/kareem/index.js:264:21
+    at /Users/wma027/Documents/Projects/IDoc/node_modules/kareem/index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[2017-03-30 17:07:23.353] [INFO] idea - Completed 500 (31ms)
+[2017-03-30 17:07:23.587] [INFO] idea - Started 2017-03-30T09:07:23.586Z GET /api/patient/58dcc92e66a83c48b5f31545 ::ffff:127.0.0.1
+[2017-03-30 17:07:23.596] [INFO] idea - Completed 200 (10ms)
+[2017-03-30 17:07:52.833] [INFO] idea - Started 2017-03-30T09:07:52.833Z POST /api/patient/58dccabc29c20348eaaa56d5 ::ffff:127.0.0.1
+[2017-03-30 17:07:52.846] [INFO] idea - Completed 200 (13ms)
+[2017-03-30 17:07:53.085] [INFO] idea - Started 2017-03-30T09:07:53.085Z GET /api/patient/58dccabc29c20348eaaa56d5 ::ffff:127.0.0.1
+[2017-03-30 17:07:53.095] [INFO] idea - Completed 200 (10ms)
+[2017-03-30 17:09:20.352] [INFO] idea - Started 2017-03-30T09:09:20.352Z POST /api/patient/58dccabc29c20348eaaa56d5 ::ffff:127.0.0.1
+[2017-03-30 17:09:20.370] [INFO] idea - Completed 200 (18ms)
+[2017-03-30 17:09:20.598] [INFO] idea - Started 2017-03-30T09:09:20.598Z GET /api/patient/58dccabc29c20348eaaa56d5 ::ffff:127.0.0.1
+[2017-03-30 17:09:20.608] [INFO] idea - Completed 200 (9ms)
+[2017-03-30 17:09:49.244] [INFO] idea - Share listening on port 3000
+[2017-03-30 17:09:52.065] [INFO] idea - Started 2017-03-30T09:09:52.064Z POST /api/patient ::ffff:127.0.0.1
+[2017-03-30 17:09:52.172] [INFO] idea - Completed 200 (108ms)
+[2017-03-30 17:12:20.283] [INFO] idea - Started 2017-03-30T09:12:20.282Z POST /api/patient ::ffff:127.0.0.1
+[2017-03-30 17:12:20.309] [INFO] idea - Completed 200 (27ms)
+[2017-03-30 17:12:27.043] [INFO] idea - Started 2017-03-30T09:12:27.043Z GET /api/patient ::ffff:127.0.0.1
+[2017-03-30 17:12:27.067] [INFO] idea - Completed 200 (24ms)

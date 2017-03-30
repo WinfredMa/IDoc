@@ -46,7 +46,7 @@ app.use(swagger.init(app, {
     info: {
         title: 'SHARE Swagger'        
     },
-    apis: ['./controller/user.js'],
+    apis: [],
     middleware: function (req, res) { }
 }));
 

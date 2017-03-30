@@ -1,9 +1,6 @@
-var ActivityModel, db, async, _, Tool;
+var ActivityModel;
 
 ActivityModel = require('../models').Activity;
-db = require('../db');
-async = require('async');
-Tool = require('../common/tools');
 
 exports.create = function(req, res, next) {
     var activity = new ActivityModel(req.body);
@@ -52,6 +49,17 @@ exports.update = function(req, res, next) {
         }
     });
 };
+
+exports.delete = function(req, res, next) {
+    req.activity.remove(function(err) {
+        if (err) {
+            return next(err);
+        } else {
+            res.json(req.activity);
+        }
+    });
+};
+
 
 
 
