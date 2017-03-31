@@ -44,6 +44,8 @@ TreatmentSchema.statics = {
 
         return this
             .find({'$and': [{'created_at': {'$gte': new Date(minimumDate)}}, {'created_at': {'$lt': new Date(maximumDate)}}]})
+            .sort({$natural : -1})
+            .limit(1)
             .exec(cb);
     },
     findById: function(id, cb) {
