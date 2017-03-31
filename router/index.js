@@ -34,6 +34,7 @@ router.all("*", function (req, res, next) {
 
 // Activity
 router.get('/activity', controllerFactory.Activity.list);
+router.get('/activity/latest', controllerFactory.Activity.latestActivity);
 router.post('/activity', controllerFactory.Activity.create);
 router.post('/activity/:activityId', controllerFactory.Activity.update);
 router.get('/activity/:activityId', controllerFactory.Activity.read);

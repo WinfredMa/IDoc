@@ -12,19 +12,16 @@ TreatmentSchema = new Schema({
     id: {type : ObjectId, index : true},
     name: { type: String },
     amount: { type: String},
-    patient: {
-        id : {type :ObjectId , ref : Patient},
-        name:{type : String}
-    },
-    create_at: { type: Date, default: Date.now },
-    update_at: { type: Date, default: Date.now },
+    patient: {type : String, ref : 'Patient'},
+    created_at: { type: Date, default: Date.now },
+    updated_at: { type: Date, default: Date.now },
     access_token: {type : String}
 });
 
 TreatmentSchema.plugin(BaseModel);
 TreatmentSchema.pre('save', function (next) {
     var now = new Date();
-    this.update_at = now;
+    this.updated_at = now;
     next();
 });
 

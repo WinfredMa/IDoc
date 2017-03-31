@@ -3,7 +3,6 @@ var mongoose, BaseModel, Schema, ObjectId, FoodSchema;
 
 mongoose = require('mongoose');
 BaseModel = require("./base_model");
-Patient = require('./patient');
 Schema = mongoose.Schema;
 ObjectId = mongoose.Schema.Types.ObjectId;
 
@@ -12,19 +11,16 @@ FoodSchema = new Schema({
     name : {type : String},
     amount: {type : String},
     type: {type : String},
-    patient: {
-        id : {type :ObjectId , ref : Patient},
-        name:{type : String}
-    },
-    create_at: { type: Date, default: Date.now },
-    update_at: { type: Date, default: Date.now }
+    patient: {type : String, ref : 'Patient'},
+    created_at: { type: Date, default: Date.now },
+    updated_at: { type: Date, default: Date.now }
 });
 
 FoodSchema.plugin(BaseModel);
 
 FoodSchema.pre('save', function (next) {
     var now = new Date();
-    this.update_at = now;
+    this.updated_at = now;
     next();
 });
 

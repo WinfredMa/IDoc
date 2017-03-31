@@ -30,7 +30,7 @@ exports.read = function(req, res) {
 exports.detail = function(req, res, next, id) {
     ActivityModel.findOne({
         _id: id
-    }, function(err, activity) {
+    }).populate('patient', 'name').exec(function(err, activity) {
         if (err) {
             return next(err);
         } else {
@@ -59,6 +59,10 @@ exports.delete = function(req, res, next) {
         }
     });
 };
+
+exports.latestActivity = function(req, res, next) {
+    res.json({msg: 'ok'});
+}
 
 
 

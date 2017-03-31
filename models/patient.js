@@ -20,8 +20,8 @@ PatientSchema = new Schema({
     address: { type: String },
     email: { type: String },
     tel: { type: String },
-    create_at: { type: Date, default: Date.now },
-    update_at: { type: Date, default: Date.now },
+    created_at: { type: Date, default: Date.now },
+    updated_at: { type: Date, default: Date.now },
     access_token: {type : String}
 });
 
@@ -29,7 +29,7 @@ PatientSchema.plugin(BaseModel);
 
 PatientSchema.pre('save', function (next) {
     var now = new Date();
-    this.update_at = now;
+    this.updated_at = now;
     next();
 });
 
