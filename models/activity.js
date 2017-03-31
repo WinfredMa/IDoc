@@ -23,5 +23,18 @@ ActivitySchema.pre('save', function (next) {
     this.updated_at = now;
     next();
 });
-
+ActivitySchema.statics = {
+    findLatest: function(cb) {
+        return this
+          .find()
+          .sort({$natural : -1})
+          .limit(1)
+          .exec(cb)
+    },
+    findById: function(id, cb) {
+        return this
+          .findOne({_id: id})          
+          .exec(cb)
+    }
+}
 mongoose.model('Activity', ActivitySchema);

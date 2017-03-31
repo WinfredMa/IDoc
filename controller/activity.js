@@ -61,7 +61,13 @@ exports.delete = function(req, res, next) {
 };
 
 exports.latestActivity = function(req, res, next) {
-    res.json({msg: 'ok'});
+    ActivityModel.findLatest(function(err, activity) {
+        if (err) {
+            return next(err);
+        } else {
+            res.json(activity);
+        }
+    });
 }
 
 
