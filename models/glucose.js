@@ -8,7 +8,10 @@ ObjectId = mongoose.Schema.Types.ObjectId;
 
 GlucoseSchema = new Schema({
     id: {type : ObjectId, index : true},
-    amount: {type : String},
+    maximum: {type: String},
+    minimum: {type: String},
+    current: {type: String},
+    average: {type: String},
     patient: {type : String, ref : 'Patient'},
     created_at: { type: Date, default: Date.now },
     updated_at: { type: Date, default: Date.now }

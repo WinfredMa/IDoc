@@ -8,7 +8,8 @@ ObjectId = mongoose.Schema.Types.ObjectId;
 
 PressureSchema = new Schema({
     id: {type : ObjectId, index : true},
-    amount: {type : String},
+    diastolic: {type: String},
+    systolic: {type: String},
     patient: {type : String, ref : 'Patient'},
     created_at: { type: Date, default: Date.now },
     updated_at: { type: Date, default: Date.now }
