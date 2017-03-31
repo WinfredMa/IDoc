@@ -36,5 +36,5 @@ ActivitySchema.statics = {
           .findOne({_id: id})          
           .exec(cb)
     }
-}
+};
 mongoose.model('Activity', ActivitySchema);

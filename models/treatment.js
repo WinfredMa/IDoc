@@ -25,4 +25,33 @@ TreatmentSchema.pre('save', function (next) {
     next();
 });
 
+TreatmentSchema.statics = {
+    findByTime: function(time, cb) {
+        var timeObj = new Date(time),
+            minimumDate, maximumDate, currentHour;
+        currentHour = timeObj.getHours();
+        if (currentHour <= 10) {
+            minimumDate = timeObj.getFullYear() + '-' + (timeObj.getMonth() + 1) + '-' + timeObj.getDate() + ' 00:00:00';
+            maximumDate = timeObj.getFullYear() + '-' + (timeObj.getMonth() + 1) + '-' + timeObj.getDate() + ' 10:00:00';
+
+        } else if ((10 < currentHour) && (currentHour <= 17)) {
+            minimumDate = timeObj.getFullYear() + '-' + (timeObj.getMonth() + 1) + '-' + timeObj.getDate() + ' 10:00:00';
+            maximumDate = timeObj.getFullYear() + '-' + (timeObj.getMonth() + 1) + '-' + timeObj.getDate() + ' 17:00:00';
+        } else {
+            minimumDate = timeObj.getFullYear() + '-' + (timeObj.getMonth() + 1) + '-' + timeObj.getDate() + ' 17:00:00';
+            maximumDate = timeObj.getFullYear() + '-' + (timeObj.getMonth() + 1) + '-' + timeObj.getDate() + ' 23:00:00';
+        }
+
+        return this
+            .find({'$and': [{'created_at': {'$gt': new Date(minimumDate)}}, {'created_at': {'$lt': new Date(maximumDate)}}]})
+            .exec(cb);
+    },
+    findById: function(id, cb) {
+        return this
+            .findOne({ _id: id })
+            .exec(cb);
+    }
+}
+
+
 mongoose.model('Treatment', TreatmentSchema);

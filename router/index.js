@@ -51,6 +51,7 @@ router.param('foodId', controllerFactory.Food.findByID);
 
 // Treatment
 router.get('/treatment', controllerFactory.Treatment.list);
+router.get('/treatment/timeRange', controllerFactory.Treatment.findByTime);
 router.post('/treatment', controllerFactory.Treatment.create);
 router.post('/treatment/:treatmentId', controllerFactory.Treatment.update);
 router.get('/treatment/:treatmentId', controllerFactory.Treatment.detail);

@@ -63,6 +63,16 @@ exports.delete = function(req, res, next) {
     });
 };
 
+exports.findByTime = function(req, res, next) {
+    TreatmentModel.findByTime(req.query.date, function(err, treatment) {
+        if (err) {
+            return next(err);
+        } else {
+            res.json(treatment);
+        }
+    });
+};
+
 
 
 
