@@ -30,11 +30,11 @@ TreatmentSchema.statics = {
         var timeObj = new Date(time),
             minimumDate, maximumDate, currentHour;
         currentHour = timeObj.getHours();
-        if (currentHour <= 10) {
+        if (currentHour < 10) {
             minimumDate = timeObj.getFullYear() + '-' + (timeObj.getMonth() + 1) + '-' + timeObj.getDate() + ' 00:00:00';
             maximumDate = timeObj.getFullYear() + '-' + (timeObj.getMonth() + 1) + '-' + timeObj.getDate() + ' 10:00:00';
 
-        } else if ((10 < currentHour) && (currentHour < 17)) {
+        } else if ((10 <= currentHour) && (currentHour < 17)) {
             minimumDate = timeObj.getFullYear() + '-' + (timeObj.getMonth() + 1) + '-' + timeObj.getDate() + ' 10:00:00';
             maximumDate = timeObj.getFullYear() + '-' + (timeObj.getMonth() + 1) + '-' + timeObj.getDate() + ' 17:00:00';
         } else {
