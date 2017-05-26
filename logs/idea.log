@@ -4004,3 +4004,512 @@ ReferenceError: data is not defined
 [2017-03-30 17:12:20.309] [INFO] idea - Completed 200 (27ms)
 [2017-03-30 17:12:27.043] [INFO] idea - Started 2017-03-30T09:12:27.043Z GET /api/patient ::ffff:127.0.0.1
 [2017-03-30 17:12:27.067] [INFO] idea - Completed 200 (24ms)
+[2017-05-25 11:44:26.085] [INFO] idea - Share listening on port 3000
+[2017-05-25 12:10:03.779] [INFO] idea - Share listening on port 3000
+[2017-05-25 12:10:08.553] [INFO] idea - Started 2017-05-25T04:10:08.553Z POST /api/conversation/input ::1
+[2017-05-25 12:10:16.987] [ERROR] idea - { Error: {"input.text":["Input text must be of type \"string\"","Input text can not contain the following characters: tab, new line, carriage return. [[object Object]]","Input text has an incorrect length"]}
+    at Request._callback (/Users/bli111/Documents/PWC/Project/iDoc/IDoc/node_modules/watson-developer-cloud/lib/requestwrapper.js:87:15)
+    at Request.self.callback (/Users/bli111/Documents/PWC/Project/iDoc/IDoc/node_modules/request/request.js:188:22)
+    at emitTwo (events.js:106:13)
+    at Request.emit (events.js:191:7)
+    at Request.<anonymous> (/Users/bli111/Documents/PWC/Project/iDoc/IDoc/node_modules/request/request.js:1171:10)
+    at emitOne (events.js:96:13)
+    at Request.emit (events.js:188:7)
+    at Gunzip.<anonymous> (/Users/bli111/Documents/PWC/Project/iDoc/IDoc/node_modules/request/request.js:1091:12)
+    at Gunzip.g (events.js:291:16)
+    at emitNone (events.js:91:20)
+    at Gunzip.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+  code: undefined,
+  error: '{"input.text":["Input text must be of type \\"string\\"","Input text can not contain the following characters: tab, new line, carriage return. [[object Object]]","Input text has an incorrect length"]}',
+  rawError: { error: { 'input.text': [Object] } } }
+[2017-05-25 12:10:16.998] [INFO] idea - Completed 200 (8444ms)
+[2017-05-25 12:10:38.930] [INFO] idea - Share listening on port 3000
+[2017-05-25 12:10:42.482] [INFO] idea - Started 2017-05-25T04:10:42.482Z POST /api/conversation/input ::1
+[2017-05-25 12:10:43.796] [INFO] idea - One Conversation Complete :  {
+  "intents": [
+    {
+      "intent": "name",
+      "confidence": 0.26676035339468573
+    }
+  ],
+  "entities": [],
+  "input": {
+    "text": "name"
+  },
+  "output": {
+    "log_messages": [],
+    "text": [
+      "asdfdff"
+    ],
+    "nodes_visited": [
+      "gg"
+    ]
+  },
+  "context": {
+    "conversation_id": "6de0518c-0401-4b8e-8888-b1877359c056",
+    "system": {
+      "dialog_stack": [
+        {
+          "dialog_node": "root"
+        }
+      ],
+      "dialog_turn_counter": 1,
+      "dialog_request_counter": 1,
+      "_node_output_map": {
+        "node_3_1495616504903": [
+          0
+        ]
+      },
+      "branch_exited": true,
+      "branch_exited_reason": "completed"
+    }
+  }
+}
+[2017-05-25 12:10:43.802] [INFO] idea - Completed 200 (1320ms)
+[2017-05-25 12:11:18.386] [INFO] idea - Share listening on port 3000
+[2017-05-25 12:11:22.103] [INFO] idea - Started 2017-05-25T04:11:22.103Z POST /api/conversation/input ::1
+[2017-05-25 12:11:23.295] [INFO] idea - One Conversation Complete :  {
+  "intents": [
+    {
+      "intent": "name",
+      "confidence": 0.26676035339468573
+    }
+  ],
+  "entities": [],
+  "input": {
+    "text": "name"
+  },
+  "output": {
+    "log_messages": [],
+    "text": [
+      "asdfdff"
+    ],
+    "nodes_visited": [
+      "gg"
+    ]
+  },
+  "context": {
+    "conversation_id": "2c4ad328-d668-406a-b6cb-28d41a69f867",
+    "system": {
+      "dialog_stack": [
+        {
+          "dialog_node": "root"
+        }
+      ],
+      "dialog_turn_counter": 1,
+      "dialog_request_counter": 1,
+      "_node_output_map": {
+        "node_3_1495616504903": [
+          0
+        ]
+      },
+      "branch_exited": true,
+      "branch_exited_reason": "completed"
+    }
+  }
+}
+[2017-05-25 12:11:23.300] [INFO] idea - Completed 200 (1197ms)
+[2017-05-25 12:11:34.659] [INFO] idea - Share listening on port 3000
+[2017-05-25 12:11:37.522] [INFO] idea - Started 2017-05-25T04:11:37.522Z POST /api/conversation/input ::1
+[2017-05-25 12:11:38.527] [INFO] idea - One Conversation Complete :  {
+  "intents": [
+    {
+      "intent": "name",
+      "confidence": 0.26676035339468573
+    }
+  ],
+  "entities": [],
+  "input": {
+    "text": "name"
+  },
+  "output": {
+    "log_messages": [],
+    "text": [
+      "asdfdff"
+    ],
+    "nodes_visited": [
+      "gg"
+    ]
+  },
+  "context": {
+    "conversation_id": "3a9f00fb-e3be-450b-8955-f3bb8b5575ed",
+    "system": {
+      "dialog_stack": [
+        {
+          "dialog_node": "root"
+        }
+      ],
+      "dialog_turn_counter": 1,
+      "dialog_request_counter": 1,
+      "_node_output_map": {
+        "node_3_1495616504903": [
+          0
+        ]
+      },
+      "branch_exited": true,
+      "branch_exited_reason": "completed"
+    }
+  }
+}
+[2017-05-25 12:11:38.534] [INFO] idea - Completed 200 (1012ms)
+[2017-05-25 12:12:44.686] [INFO] idea - Share listening on port 3000
+[2017-05-25 12:12:47.611] [INFO] idea - Started 2017-05-25T04:12:47.610Z POST /api/conversation/input ::1
+[2017-05-25 12:12:48.817] [INFO] idea - One Conversation Complete :  {
+  "intents": [
+    {
+      "intent": "name",
+      "confidence": 0.26676035339468573
+    }
+  ],
+  "entities": [],
+  "input": {
+    "text": "name"
+  },
+  "output": {
+    "log_messages": [],
+    "text": [
+      "asdfdff"
+    ],
+    "nodes_visited": [
+      "gg"
+    ]
+  },
+  "context": {
+    "conversation_id": "5125da38-2298-4dce-aca0-39272ed1d1b4",
+    "system": {
+      "dialog_stack": [
+        {
+          "dialog_node": "root"
+        }
+      ],
+      "dialog_turn_counter": 1,
+      "dialog_request_counter": 1,
+      "_node_output_map": {
+        "node_3_1495616504903": [
+          0
+        ]
+      },
+      "branch_exited": true,
+      "branch_exited_reason": "completed"
+    }
+  }
+}
+[2017-05-25 12:12:48.822] [INFO] idea - Completed 200 (1212ms)
+[2017-05-25 12:13:39.070] [INFO] idea - Share listening on port 3000
+[2017-05-25 12:13:41.378] [INFO] idea - Started 2017-05-25T04:13:41.377Z POST /api/conversation/input ::1
+[2017-05-25 12:13:42.360] [INFO] idea - One Conversation Complete :  {
+  "intents": [
+    {
+      "intent": "name",
+      "confidence": 0.26676035339468573
+    }
+  ],
+  "entities": [],
+  "input": {
+    "text": "name"
+  },
+  "output": {
+    "log_messages": [],
+    "text": [
+      "asdfdff"
+    ],
+    "nodes_visited": [
+      "gg"
+    ]
+  },
+  "context": {
+    "conversation_id": "e4d4f3ba-f945-4527-9bfa-8f0021d4446a",
+    "system": {
+      "dialog_stack": [
+        {
+          "dialog_node": "root"
+        }
+      ],
+      "dialog_turn_counter": 1,
+      "dialog_request_counter": 1,
+      "_node_output_map": {
+        "node_3_1495616504903": [
+          0
+        ]
+      },
+      "branch_exited": true,
+      "branch_exited_reason": "completed"
+    }
+  }
+}
+[2017-05-25 12:13:42.366] [INFO] idea - Completed 200 (989ms)
+[2017-05-25 12:14:50.928] [INFO] idea - Share listening on port 3000
+[2017-05-25 12:14:53.429] [INFO] idea - Started 2017-05-25T04:14:53.428Z POST /api/conversation/input ::1
+[2017-05-25 12:14:54.497] [INFO] idea - One Conversation Complete :  {
+  "intents": [
+    {
+      "intent": "name",
+      "confidence": 0.26676035339468573
+    }
+  ],
+  "entities": [],
+  "input": {
+    "text": "name"
+  },
+  "output": {
+    "log_messages": [],
+    "text": [
+      "asdfdff"
+    ],
+    "nodes_visited": [
+      "gg"
+    ]
+  },
+  "context": {
+    "conversation_id": "41834a67-fee0-4a77-b86f-c4d9e7fc9fe2",
+    "system": {
+      "dialog_stack": [
+        {
+          "dialog_node": "root"
+        }
+      ],
+      "dialog_turn_counter": 1,
+      "dialog_request_counter": 1,
+      "_node_output_map": {
+        "node_3_1495616504903": [
+          0
+        ]
+      },
+      "branch_exited": true,
+      "branch_exited_reason": "completed"
+    }
+  }
+}
+[2017-05-25 12:14:54.505] [INFO] idea - Completed 200 (1076ms)
+[2017-05-25 13:39:13.335] [INFO] idea - Share listening on port 3000
+[2017-05-25 13:40:19.840] [INFO] idea - Started 2017-05-25T05:40:19.840Z POST /api/conversation/start ::1
+[2017-05-25 13:40:19.955] [ERROR] idea - Error: Missing required parameters: workspace_id
+    at Object.getMissingParams (/Users/bli111/Documents/PWC/Project/iDoc/IDoc/node_modules/watson-developer-cloud/lib/helper.js:47:33)
+    at createRequest (/Users/bli111/Documents/PWC/Project/iDoc/IDoc/node_modules/watson-developer-cloud/lib/requestwrapper.js:136:26)
+    at ConversationV1.message (/Users/bli111/Documents/PWC/Project/iDoc/IDoc/node_modules/watson-developer-cloud/conversation/v1.js:213:10)
+    at Object.exports.startConversation (/Users/bli111/Documents/PWC/Project/iDoc/IDoc/services/bluemix/index.js:12:18)
+    at exports.startConversation (/Users/bli111/Documents/PWC/Project/iDoc/IDoc/controller/conversation.js:9:18)
+    at Layer.handle [as handle_request] (/Users/bli111/Documents/PWC/Project/iDoc/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/bli111/Documents/PWC/Project/iDoc/IDoc/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/bli111/Documents/PWC/Project/iDoc/IDoc/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/bli111/Documents/PWC/Project/iDoc/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/bli111/Documents/PWC/Project/iDoc/IDoc/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/bli111/Documents/PWC/Project/iDoc/IDoc/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/bli111/Documents/PWC/Project/iDoc/IDoc/node_modules/express/lib/router/index.js:275:10)
+    at next (/Users/bli111/Documents/PWC/Project/iDoc/IDoc/node_modules/express/lib/router/route.js:127:14)
+    at /Users/bli111/Documents/PWC/Project/iDoc/IDoc/router/index.js:31:16
+    at Layer.handle [as handle_request] (/Users/bli111/Documents/PWC/Project/iDoc/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/bli111/Documents/PWC/Project/iDoc/IDoc/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/bli111/Documents/PWC/Project/iDoc/IDoc/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/bli111/Documents/PWC/Project/iDoc/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/bli111/Documents/PWC/Project/iDoc/IDoc/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/bli111/Documents/PWC/Project/iDoc/IDoc/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/bli111/Documents/PWC/Project/iDoc/IDoc/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/bli111/Documents/PWC/Project/iDoc/IDoc/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/bli111/Documents/PWC/Project/iDoc/IDoc/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/bli111/Documents/PWC/Project/iDoc/IDoc/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/bli111/Documents/PWC/Project/iDoc/IDoc/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/bli111/Documents/PWC/Project/iDoc/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/bli111/Documents/PWC/Project/iDoc/IDoc/node_modules/express/lib/router/index.js:317:13)
+    at /Users/bli111/Documents/PWC/Project/iDoc/IDoc/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/bli111/Documents/PWC/Project/iDoc/IDoc/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/bli111/Documents/PWC/Project/iDoc/IDoc/node_modules/express/lib/router/index.js:275:10)
+    at /Users/bli111/Documents/PWC/Project/iDoc/IDoc/node_modules/swagger-express/lib/swagger-express/index.js:320:12
+    at Layer.handle [as handle_request] (/Users/bli111/Documents/PWC/Project/iDoc/IDoc/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/bli111/Documents/PWC/Project/iDoc/IDoc/node_modules/express/lib/router/index.js:317:13)
+    at /Users/bli111/Documents/PWC/Project/iDoc/IDoc/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/bli111/Documents/PWC/Project/iDoc/IDoc/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/bli111/Documents/PWC/Project/iDoc/IDoc/node_modules/express/lib/router/index.js:275:10)
+    at Immediate.<anonymous> (/Users/bli111/Documents/PWC/Project/iDoc/IDoc/node_modules/express-session/index.js:489:7)
+    at runCallback (timers.js:670:20)
+    at tryOnImmediate (timers.js:639:5)
+    at processImmediate [as _immediateCallback] (timers.js:611:5)
+
+[2017-05-25 13:40:19.998] [INFO] idea - Completed 200 (158ms)
+[2017-05-25 13:42:01.137] [INFO] idea - Share listening on port 3000
+[2017-05-25 13:42:31.690] [INFO] idea - Started 2017-05-25T05:42:31.685Z POST /api/conversation/start ::1
+[2017-05-25 13:42:34.032] [ERROR] idea - { Error: self signed certificate in certificate chain
+    at Error (native)
+    at TLSSocket.<anonymous> (_tls_wrap.js:1092:38)
+    at emitNone (events.js:86:13)
+    at TLSSocket.emit (events.js:185:7)
+    at TLSSocket._finishInit (_tls_wrap.js:610:8)
+    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:440:38)
+ code: 'SELF_SIGNED_CERT_IN_CHAIN' }
+[2017-05-25 13:42:34.061] [INFO] idea - Completed 200 (2376ms)
+[2017-05-25 13:44:56.251] [INFO] idea - Share listening on port 3000
+[2017-05-25 13:44:59.364] [INFO] idea - Started 2017-05-25T05:44:59.363Z POST /api/conversation/start ::1
+[2017-05-25 13:45:00.983] [ERROR] idea - { Error: self signed certificate in certificate chain
+    at Error (native)
+    at TLSSocket.<anonymous> (_tls_wrap.js:1092:38)
+    at emitNone (events.js:86:13)
+    at TLSSocket.emit (events.js:185:7)
+    at TLSSocket._finishInit (_tls_wrap.js:610:8)
+    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:440:38)
+ code: 'SELF_SIGNED_CERT_IN_CHAIN' }
+[2017-05-25 13:45:00.994] [INFO] idea - Completed 200 (1631ms)
+[2017-05-25 13:45:22.984] [INFO] idea - Started 2017-05-25T05:45:22.984Z POST /api/conversation/input ::1
+[2017-05-25 13:45:24.220] [ERROR] idea - { Error: self signed certificate in certificate chain
+    at Error (native)
+    at TLSSocket.<anonymous> (_tls_wrap.js:1092:38)
+    at emitNone (events.js:86:13)
+    at TLSSocket.emit (events.js:185:7)
+    at TLSSocket._finishInit (_tls_wrap.js:610:8)
+    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:440:38)
+ code: 'SELF_SIGNED_CERT_IN_CHAIN' }
+[2017-05-25 13:45:24.223] [INFO] idea - Completed 200 (1239ms)
+[2017-05-25 13:45:54.981] [INFO] idea - Started 2017-05-25T05:45:54.981Z POST /api/conversation/start ::1
+[2017-05-25 13:45:56.339] [ERROR] idea - { Error: self signed certificate in certificate chain
+    at Error (native)
+    at TLSSocket.<anonymous> (_tls_wrap.js:1092:38)
+    at emitNone (events.js:86:13)
+    at TLSSocket.emit (events.js:185:7)
+    at TLSSocket._finishInit (_tls_wrap.js:610:8)
+    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:440:38)
+ code: 'SELF_SIGNED_CERT_IN_CHAIN' }
+[2017-05-25 13:45:56.344] [INFO] idea - Completed 200 (1363ms)
+[2017-05-25 13:46:18.353] [INFO] idea - Started 2017-05-25T05:46:18.353Z POST /api/conversation/input ::1
+[2017-05-25 13:46:19.646] [ERROR] idea - { Error: self signed certificate in certificate chain
+    at Error (native)
+    at TLSSocket.<anonymous> (_tls_wrap.js:1092:38)
+    at emitNone (events.js:86:13)
+    at TLSSocket.emit (events.js:185:7)
+    at TLSSocket._finishInit (_tls_wrap.js:610:8)
+    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:440:38)
+ code: 'SELF_SIGNED_CERT_IN_CHAIN' }
+[2017-05-25 13:46:19.649] [INFO] idea - Completed 200 (1296ms)
+[2017-05-25 13:46:58.550] [INFO] idea - Share listening on port 3000
+[2017-05-25 13:47:02.759] [INFO] idea - Started 2017-05-25T05:47:02.759Z POST /api/conversation/input ::1
+[2017-05-25 13:47:04.106] [ERROR] idea - { Error: self signed certificate in certificate chain
+    at Error (native)
+    at TLSSocket.<anonymous> (_tls_wrap.js:1092:38)
+    at emitNone (events.js:86:13)
+    at TLSSocket.emit (events.js:185:7)
+    at TLSSocket._finishInit (_tls_wrap.js:610:8)
+    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:440:38)
+ code: 'SELF_SIGNED_CERT_IN_CHAIN' }
+[2017-05-25 13:47:04.121] [INFO] idea - Completed 200 (1362ms)
+[2017-05-26 17:18:41.425] [INFO] idea - Share listening on port 3000
+[2017-05-26 17:19:11.000] [INFO] idea - Started 2017-05-26T09:19:10.999Z POST /api/conversation/input ::1
+[2017-05-26 17:19:16.169] [INFO] idea - The Conversation Complete :  {
+  "intents": [
+    {
+      "intent": "name",
+      "confidence": 0.26676035339468573
+    }
+  ],
+  "entities": [],
+  "input": {
+    "text": "name"
+  },
+  "output": {
+    "log_messages": [],
+    "text": [
+      "asdfdff"
+    ],
+    "nodes_visited": [
+      "gg"
+    ]
+  },
+  "context": {
+    "conversation_id": "c9f80d58-aff0-4a83-9b33-6a02204893b7",
+    "system": {
+      "dialog_stack": [
+        {
+          "dialog_node": "root"
+        }
+      ],
+      "dialog_turn_counter": 1,
+      "dialog_request_counter": 1,
+      "_node_output_map": {
+        "node_3_1495616504903": [
+          0
+        ]
+      },
+      "branch_exited": true,
+      "branch_exited_reason": "completed"
+    }
+  }
+}
+[2017-05-26 17:19:16.175] [INFO] idea - Completed 200 (5176ms)
+[2017-05-26 17:20:41.587] [INFO] idea - Started 2017-05-26T09:20:41.587Z POST /api/conversation/start ::1
+[2017-05-26 17:20:42.458] [INFO] idea - The Conversation Complete :  {
+  "intents": [],
+  "entities": [],
+  "input": {},
+  "output": {
+    "log_messages": [],
+    "text": [
+      "Hello. How can I help you?"
+    ],
+    "nodes_visited": [
+      "Welcome"
+    ]
+  },
+  "context": {
+    "conversation_id": "ba0bd44b-73e8-4b09-964a-053192bdddbf",
+    "system": {
+      "dialog_stack": [
+        {
+          "dialog_node": "root"
+        }
+      ],
+      "dialog_turn_counter": 1,
+      "dialog_request_counter": 1,
+      "_node_output_map": {
+        "Welcome": [
+          0
+        ]
+      },
+      "branch_exited": true,
+      "branch_exited_reason": "completed"
+    }
+  }
+}
+[2017-05-26 17:20:42.460] [INFO] idea - Completed 200 (873ms)
+[2017-05-26 17:22:13.168] [INFO] idea - Started 2017-05-26T09:22:13.168Z POST /api/conversation/input ::1
+[2017-05-26 17:22:14.081] [INFO] idea - The Conversation Complete :  {
+  "intents": [
+    {
+      "intent": "name",
+      "confidence": 0.26676035339468573
+    }
+  ],
+  "entities": [],
+  "input": {
+    "text": "name"
+  },
+  "output": {
+    "log_messages": [],
+    "text": [
+      "asdfdff"
+    ],
+    "nodes_visited": [
+      "gg"
+    ]
+  },
+  "context": {
+    "conversation_id": "33262159-c091-4b7c-8bdd-9a101880b4c1",
+    "system": {
+      "dialog_stack": [
+        {
+          "dialog_node": "root"
+        }
+      ],
+      "dialog_turn_counter": 1,
+      "dialog_request_counter": 1,
+      "_node_output_map": {
+        "node_3_1495616504903": [
+          0
+        ]
+      },
+      "branch_exited": true,
+      "branch_exited_reason": "completed"
+    }
+  }
+}
+[2017-05-26 17:22:14.082] [INFO] idea - Completed 200 (914ms)

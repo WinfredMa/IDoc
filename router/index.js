@@ -98,4 +98,7 @@ router.get('/patient/:patientId', controllerFactory.Patient.detail);
 router.delete('/patient/:patientId', controllerFactory.Patient.delete);
 router.param('patientId', controllerFactory.Patient.findByID);
 
+router.post('/conversation/input', controllerFactory.Conversation.processConversation);
+router.post('/conversation/start', controllerFactory.Conversation.startConversation);
+
 module.exports = router;

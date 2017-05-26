@@ -6,3 +6,4 @@ exports.Pressure = require('./pressure');
 exports.HeartRate = require('./heart_rate');
 exports.Weight = require('./weight');
 exports.Patient = require('./patient');
+exports.Conversation = require('./conversation');
